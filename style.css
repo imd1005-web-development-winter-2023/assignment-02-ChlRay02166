@@ -1,15 +1,36 @@
 header,footer{
   background-color : #d1e7d9;
   display:flex;
-  padding: 15px;
+  padding: 5px;
   justify-content: space-between;
   
 }
 .header_logo{
-  border: 1px solid red;
+  /*good test! : border: 1px solid red;*/
   display: flex;
   align-items: center;
 }
+
+.Image_text_box{
+  position: relative;
+  text-align: center right;
+  color: rgb(25, 53, 40);
+}
+
+
+.Image_text_box img{
+  min-width: 100%;
+  object-fit: cover;
+  min-height: 50%;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+
 .header_logo h2{
  padding-left: 15px;
 }
@@ -20,9 +41,14 @@ header,footer{
   border-radius: 10px;
   padding: 10px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  list-style: none;
+  text-decoration: none;
+  color:rgb(28, 70, 41); 
   
 }
+
+
 
 .Site_Welcome
 {
@@ -34,17 +60,10 @@ header,footer{
 .Bubbles
 {
   display: flex;
+  padding: 250px;
   justify-content: space-evenly;
   text-align: center;
 }
-
-
-
-.Image_text_box {
-  
-  background-color : rgb(175, 216, 191);
-}
-
 
 
 .Footer
